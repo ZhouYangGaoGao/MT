@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+      android:orientation="vertical">
+      
+ <com.matao.view.TopBar
+        android:id="@+id/resetpw_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:rightH="49dp"
+        ap:rightW="49dp"
+         ap:leftImg="@drawable/nav_ico_arrow"
+         ap:titleText="重置密码" >
+   </com.matao.view.TopBar>
+   <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginLeft="12dp"
+	     android:layout_marginRight="12dp"
+       >
+       
+       <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="51dp"
+	        android:background="@drawable/input_bg"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="12dp"
+	        
+          >
+          <ImageView 
+                 android:layout_width="18dp"
+                 android:layout_height="18dp"
+                 android:layout_marginLeft="7dp"
+                 android:layout_marginRight="7dp"
+                android:layout_gravity="center_vertical"
+                 android:src="@drawable/input_ico_password" 
+             
+              />
+          <EditText
+                    android:id="@+id/resetpw_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入新密码"
+                    android:inputType="textPassword" 
+                    android:background="@null"
+                    android:textSize="17sp"
+                    android:textColor="#999999"
+             />
+
+       </LinearLayout>
+               <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="51dp"
+	        android:background="@drawable/input_bg"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="12dp"
+	        
+          >
+          <ImageView 
+                 android:layout_width="18dp"
+                 android:layout_height="18dp"
+                 android:layout_marginLeft="7dp"
+                 android:layout_marginRight="7dp"
+                android:layout_gravity="center_vertical"
+                 android:src="@drawable/input_ico_password" 
+             
+              />
+          <EditText
+                    android:id="@+id/resetpwconfrim_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="再次输入新密码"
+                    android:inputType="textPassword" 
+                    android:background="@null"
+                    android:textSize="17sp"
+                    android:textColor="#999999"
+             />
+
+       </LinearLayout>
+      <TextView
+                android:id="@+id/resetpw_sumbit"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn_4"
+                android:gravity="center"
+                android:text="完成"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+   </LinearLayout>
+</LinearLayout>

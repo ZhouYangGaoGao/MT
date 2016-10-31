@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.matao.matao"
+    xmlns:a="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280" >
+
+    <com.matao.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/exchange_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="49dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.matao.view.AutoScrollViewPager
+                    android:id="@+id/exchange_pagelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#777777" >
+                </com.matao.view.AutoScrollViewPager>
+
+                <LinearLayout
+                    android:id="@+id/exchange_pagerDot"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignBottom="@id/exchange_pagelayout"
+                    android:layout_alignRight="@id/exchange_pagelayout"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="12dp"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/exchange_linearLayout_tip"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="8dp" >
+
+                <com.matao.view.RoundAngleImageView
+                    android:id="@+id/exchange_icon"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    a:roundHeight="11dp"
+                    a:roundWidth="11dp"
+                    android:src="@drawable/ico_wdtb" />
+
+                <LinearLayout
+                    android:id="@+id/TB_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的淘币"
+                        android:textColor="#444444"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/TB_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="3500"
+                        android:textColor="#ff74bf"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/exchange_icom2"
+                    android:layout_width="46dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/ico_hqtb" />
+
+                <TextView
+                    android:id="@+id/btn_hqtb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="如何获取淘币"
+                    android:textColor="#444444"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_all_line" />
+
+            <com.matao.view.NoSorceGridView
+                android:id="@+id/exchange_grideview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:horizontalSpacing="1dp"
+                android:listSelector="#00000000"
+                android:numColumns="2"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dp" >
+            </com.matao.view.NoSorceGridView>
+
+            <TextView
+                android:id="@+id/exchange_footer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="拼命加载中..."
+                android:textColor="#999999"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.matao.pulltorefresh.library.PullToRefreshScrollView>
+
+    <com.matao.view.TopBar
+        android:id="@+id/exchange_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        app:leftH="49dp"
+        app:leftImg="@drawable/nav_ico_arrow"
+        app:titleText="淘币兑换" />
+
+</RelativeLayout>

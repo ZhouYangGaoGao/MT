@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280" >
+
+    <com.matao.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/experience_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="93.5dp"
+        android:divider="@null" >
+    </com.matao.pulltorefresh.library.PullToRefreshListView>
+
+    <LinearLayout
+        android:id="@+id/experience_menu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="49dp"
+        android:background="#FFFEFA"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="4dp" >
+
+        <LinearLayout
+            android:id="@+id/experience_new"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ico_new" />
+
+            <TextView
+                android:id="@+id/show_zuixin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="@string/new1"
+                android:textColor="#999999"
+                android:textSize="@dimen/tabtext_size" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.005"
+            android:background="#e5e4e1" />
+
+        <LinearLayout
+            android:id="@+id/experience_filter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ico_filter" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/show_shaixuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="center"
+                    android:text="@string/screen"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/tabtext_size" />
+
+                <ImageView
+                    android:id="@+id/show_shaixuan_dot"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_alignTop="@id/show_shaixuan"
+                    android:layout_marginTop="-2dp"
+                    android:layout_toRightOf="@id/show_shaixuan"
+                    android:src="@drawable/ico_filter_dot"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/experience_menu"
+        android:background="#dfdfdf" />
+
+    <com.matao.view.TopBar
+        android:id="@+id/experience_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        ap:leftH="49dp"
+        ap:leftImg="@drawable/nav_ico_search"
+        ap:leftW="49dp"
+        ap:rightH="49dp"
+        ap:rightImg="@drawable/nav_ico_user"
+        ap:rightW="49dp"
+        ap:titleText="经验" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        layout="@layout/animolayout" />
+
+    <TextView
+        android:id="@+id/favorable_tip"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/none_tips_ico"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/favorable_bg"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pic_31"
+        android:onClick="onClick"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/favorable_top"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/top"
+        android:visibility="gone" />
+
+</RelativeLayout>

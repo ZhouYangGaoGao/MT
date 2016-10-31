@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/color/msg.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/color/msg.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/color/set.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/color/set.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/color/foot_lett.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/color/foot_lett.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/color/register.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/color/register.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/color/aboutus.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/color/aboutus.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/color/search.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/color/search.xml"
+    }
+]

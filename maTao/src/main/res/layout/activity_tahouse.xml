@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280" >
+
+    <TextView
+        android:id="@+id/favorable_tip"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/none_tips_ico"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/favorable_bg"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/pic_31"
+        android:onClick="onClick"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/scroll_view0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp"
+        android:orientation="vertical" >
+
+        <com.matao.pulltozoomview.PullToZoomListViewEx
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            ap:headerView="@layout/ta_head_view"
+            ap:zoomView="@layout/my_zoom_view" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ta_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        layout="@layout/ta_include"
+        android:visibility="gone" />
+
+    <com.matao.view.TopBar
+        android:id="@+id/wdxw_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:titleText="TA的小窝" >
+    </com.matao.view.TopBar>
+
+</RelativeLayout>

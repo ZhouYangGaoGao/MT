@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280" >
+
+    <com.matao.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/home_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="49dp"
+        android:divider="@null"
+        android:scrollbars="@null" >
+    </com.matao.pulltorefresh.library.PullToRefreshListView>
+
+    <com.matao.view.TopBar
+        android:id="@+id/home_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        ap:rightH="49dp"
+        ap:rightImg="@drawable/nav_ico_user"
+        ap:rightW="49dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/mataologo_124_70" />
+
+    </com.matao.view.TopBar>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        layout="@layout/animolayout" />
+
+    <TextView
+        android:id="@+id/favorable_tip"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/none_tips_ico"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/favorable_bg"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pic_31"
+        android:onClick="onClick"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/favorable_top"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="10dp"
+        android:onClick="onClick"
+        android:src="@drawable/top"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="255dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/jiangpin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="16dp"
+            android:text="韩国保宁婴幼儿除菌洗衣液"
+            android:textColor="#444444"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="淘币："
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/taobi_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6100"
+                android:textColor="#ff74bf"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="数量："
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/jiangpin_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="#ff74bf"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/jiangpin_img"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/matao_220" />
+
+        <ImageView
+            android:id="@+id/btn_exchange"
+            android:layout_width="146dp"
+            android:layout_height="27dp"
+            android:src="@drawable/but_msdh" />
+    </LinearLayout>
+
+</LinearLayout>

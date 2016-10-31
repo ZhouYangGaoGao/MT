@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.matao.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" >
+    </com.matao.pulltorefresh.library.PullToRefreshListView>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        layout="@layout/animolayout" />
+
+    <TextView
+        android:id="@+id/favorable_tip"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/none_tips_ico"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/favorable_bg"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pic_31"
+        android:onClick="onClick"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/favorable_top"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="10dp"
+        android:onClick="onClick"
+        android:src="@drawable/top"
+        android:visibility="gone" />
+
+</RelativeLayout>

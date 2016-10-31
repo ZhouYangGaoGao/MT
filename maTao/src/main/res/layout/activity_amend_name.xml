@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/bg_720x1280"
+    android:orientation="vertical" >
+
+    <com.matao.view.TopBar
+        android:id="@+id/wdxw_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        app:leftImg="@drawable/nav_ico_arrow"
+        app:rightH="49dp"
+        app:rightW="49dp"
+        app:titleText="修改昵称" >
+    </com.matao.view.TopBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/input_ico_login" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColorHint="#999999" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_4"
+        android:gravity="center"
+        android:text="保 存"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/favorable_page"
+    android:background="#fafafa" >
+
+    <RelativeLayout
+        android:id="@+id/seas_top"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:background="#fffefa" >
+
+        <TextView
+            android:id="@+id/show_shaixuan_lin22"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_all_line" />
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/show_shaixuan_img3"
+                android:layout_width="0dp"
+                android:layout_height="9dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/show_shaixuan_img4"
+                android:layout_width="0dp"
+                android:layout_height="9dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ico_arrow_4" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/seas_screen_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seas_top"
+        android:layout_marginBottom="45dp"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="17dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/title_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/seas_screen_img_fenlei0"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ico_xzly" />
+
+                <TextView
+                    android:id="@+id/seas_screen_text_fenlei0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="选择来源"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.matao.view.MyGridView
+                android:id="@+id/seas_screen_grid0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:fadingEdgeLength="0dp"
+                android:gravity="top|left"
+                android:horizontalSpacing="7dp"
+                android:listSelector="#00000000"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="11dp" >
+            </com.matao.view.MyGridView>
+
+            <LinearLayout
+                android:id="@+id/title_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/seas_screen_img_fenlei1"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ico_12" />
+
+                <TextView
+                    android:id="@+id/seas_screen_text_fenlei1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="@string/xuanze_fenlei"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.matao.view.MyGridView
+                android:id="@+id/seas_screen_grid1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:fadingEdgeLength="0dp"
+                android:gravity="top|left"
+                android:horizontalSpacing="7dp"
+                android:listSelector="#00000000"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="11dp" >
+            </com.matao.view.MyGridView>
+
+            <LinearLayout
+                android:id="@+id/title_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/seas_screen_img_age"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ico_13" />
+
+                <TextView
+                    android:id="@+id/seas_screen_text_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="@string/xuanze_nianling"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.matao.view.MyGridView
+                android:id="@+id/seas_screen_grid2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="17dp"
+                android:layout_marginLeft="17dp"
+                android:fadingEdgeLength="0dp"
+                android:gravity="top|left"
+                android:horizontalSpacing="7dp"
+                android:listSelector="#00000000"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="11dp" >
+            </com.matao.view.MyGridView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/seas_screen_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/seas_screen_N"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textColor="#999999"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.001"
+            android:background="@color/color_all_line" />
+
+        <TextView
+            android:id="@+id/seas_screen_Y"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/yes"
+            android:textColor="#999999"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/seas_screen_bottom"
+        android:background="@color/color_all_line" />
+
+</RelativeLayout>

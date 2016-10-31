@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.matao.view.TopBar
+        android:id="@+id/feed_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="49dp"
+        ap:rightW="49dp"
+        ap:titleText="意见反馈" >
+    </com.matao.view.TopBar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:lineSpacingExtra="4dp"
+        android:text="亲爱的淘友,感谢您对妈淘的关注,请描述您遇到的问题,我们会尽快为您解决."
+        android:textColor="#999999"
+        android:textSize="16sp" >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <EditText
+        android:id="@+id/feedBack_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff"
+        android:gravity="top"
+        android:hint="请输入您的意见和建议"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:paddingTop="14dp"
+         android:lineSpacingExtra="4dp"
+        android:textColor="#666666"
+        android:textColorHint="#bbbbbb"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dfdfdf"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_all_line" />
+
+        <TextView
+            android:id="@+id/feedBack_send"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_4"
+            android:gravity="center"
+            android:text="发送"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

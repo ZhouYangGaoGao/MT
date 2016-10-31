@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280"
+    android:orientation="vertical" >
+    <com.matao.view.TopBar
+        android:id="@+id/select_city_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/nav_bg"
+        ap:leftH="49dp"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        android:paddingLeft="4dp"
+        ap:leftW="49dp"
+        ap:titleText="@string/select_the_area" />
+	<ListView 
+	    android:id="@+id/select_the_area_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:divider="#d8d8d8"
+	    android:dividerHeight="0.5dp"
+	    ></ListView>
+</LinearLayout>

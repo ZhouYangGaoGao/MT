@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m1"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_1" >
+            </com.matao.view.XImageView>
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m4"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_4" >
+            </com.matao.view.XImageView>
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m6"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_6" >
+            </com.matao.view.XImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m2"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_2" >
+            </com.matao.view.XImageView>
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m3"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_3" >
+            </com.matao.view.XImageView>
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m5"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_5" >
+            </com.matao.view.XImageView>
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_6_12m7"
+                style="@style/xx_img"
+                android:src="@drawable/lse_pic_7" >
+            </com.matao.view.XImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.matao.view.TopBar
+        android:id="@+id/x_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="49dp"
+        ap:rightImg="@drawable/nav_ico_arrowr"
+        ap:titleText="6-12月  七步曲" >
+
+        <ImageView
+            android:id="@+id/x_close"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/nav_ico_close64" />
+    </com.matao.view.TopBar>
+
+</RelativeLayout>

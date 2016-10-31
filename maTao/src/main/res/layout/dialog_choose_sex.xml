@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingTop="17dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/btn_baba"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="17dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ico_male" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="爸爸"
+                    android:textColor="#666666"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_mama"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="17dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ico_female" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="妈妈"
+                    android:textColor="#666666"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:background="#d8d8d8" />
+
+        <TextView
+            android:id="@+id/btn_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#F6F6F6"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textColor="#999999"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

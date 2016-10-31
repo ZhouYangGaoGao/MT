@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280"
+    android:orientation="vertical" >
+
+    <com.matao.view.TopBar
+        android:id="@+id/registtreaty_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        app:leftH="49dp"
+        app:leftImg="@drawable/nav_ico_arrow"
+        app:leftW="49dp"
+        app:titleText="注册协议" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="妈淘网《服务条款》"
+            android:textColor="#666666"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="23dp"/>
+             <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一、总则"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"/>
+               <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.1 妈淘网的所有权和运营权归北京妈淘科技有限公司所有。"
+            android:textColor="#666666"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="20dp"/>
+               <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.2 用户在注册之前，应当仔细阅读本协议，并同意遵守本协议后方可成为注册用户。一旦注册成功，则用户与妈淘网之间自动形成协议关系，用户应当受本协议的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用。"
+            android:textColor="#666666"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="20dp"/>
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.3 本协议可由妈淘网随时更新，用户应及时关注并同意，本站不承担通知义务。本站的通知、公告、声明或其它类似内容是本协议的一部分。"
+            android:textColor="#666666"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

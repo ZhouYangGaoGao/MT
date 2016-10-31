@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000" >
+
+    <TextView
+        android:id="@+id/show_shaixuan_clic_quyu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/show_shaixuan_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafafa" >
+
+        <RelativeLayout
+            android:id="@+id/show_shaixuan_lin1"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:background="#fffefa" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_all_line" />
+
+            <LinearLayout
+                android:id="@+id/show_shaixuan_imgLayout"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/show_shaixuan_img1"
+                    android:layout_width="0dp"
+                    android:layout_height="9dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ico_arrow_4" />
+
+                <ImageView
+                    android:id="@+id/show_shaixuan_img2"
+                    android:layout_width="0dp"
+                    android:layout_height="9dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/show_shaixuan_textLayout"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/show_shaixuan_lin1"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp" >
+
+            <TextView
+                android:id="@+id/show_shaixuan_zuixinjingyan"
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_7_press"
+                android:gravity="center"
+                android:text="最新经验"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/show_shaixuan_gonglueji"
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_7"
+                android:gravity="center"
+                android:text="攻略集"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/show_shaixuan_lin2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/show_shaixuan_textLayout"
+            android:layout_marginTop="17dp"
+            android:background="@color/color_all_line" />
+
+        <TextView
+            android:id="@+id/show_shaixuan_lin3"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/show_shaixuan_lin2"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/show_shaixuan_N"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@id/show_shaixuan_lin3"
+            android:background="#FFFEFA"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textColor="#999999"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@+id/show_shaixuan_layout"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_3" />
+
+</RelativeLayout>

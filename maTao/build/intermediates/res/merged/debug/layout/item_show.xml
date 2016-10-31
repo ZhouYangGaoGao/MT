@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:r="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/item_show_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/set"
+        android:padding="12dp" >
+
+        <ImageView
+            android:id="@+id/show_item_pick"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ico_essence" />
+
+        <TextView
+            android:id="@+id/show_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-3dp"
+            android:textColor="#444444"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/show_ta_click"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/show_item_title"
+            android:layout_below="@+id/show_item_title"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical" >
+
+            <com.matao.view.RoundAngleImageView
+                android:id="@+id/show_item_icon"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/pic_14"
+                r:roundHeight="8.5dp"
+                r:roundWidth="8.5dp" />
+
+            <TextView
+                android:id="@+id/show_item_nickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:text="咆哮妈妈"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/show_item_sex"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/ico_female" />
+
+            <TextView
+                android:id="@+id/show_item_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="月儿，5岁两个月5天"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <com.matao.view.RoundAngleImageView
+            android:id="@+id/show_item_pic1"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignLeft="@+id/show_ta_click"
+            android:layout_below="@+id/show_ta_click"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/maotao_675_382"
+            android:focusable="false"
+            android:scaleType="centerCrop"
+            r:roundHeight="3dp"
+            r:roundWidth="3dp" />
+
+        <TextView
+            android:id="@+id/show_item_picCount"
+            android:layout_width="26dp"
+            android:layout_height="22dp"
+            android:layout_alignBottom="@+id/show_item_pic1"
+            android:layout_alignRight="@+id/show_item_pic1"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/shape_piccount"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/show_item_dsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/show_item_pic1"
+            android:layout_below="@+id/show_item_pic1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#fafafa"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ico_time" />
+
+            <TextView
+                android:id="@+id/show_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="6分钟前"
+                android:textColor="#999999"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="32dp"
+            android:layout_weight="0.001"
+            android:background="@color/color_all_line" />
+
+        <LinearLayout
+            android:id="@+id/show_item_good_click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/show_item_good_ico"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ico_love" />
+
+            <TextView
+                android:id="@+id/show_item_good"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/like"
+                android:textColor="#999999"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="32dp"
+            android:layout_weight="0.001"
+            android:background="@color/color_all_line" />
+
+        <LinearLayout
+            android:id="@+id/show_item_reply_click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/show_item_comment"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ico_reply" />
+
+            <TextView
+                android:id="@+id/show_item_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="282"
+                android:textColor="#999999"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#ECEEED" />
+
+</LinearLayout>

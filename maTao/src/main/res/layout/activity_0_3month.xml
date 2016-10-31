@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img1"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_1" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img3"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_3" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img5"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_5" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img7"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_7" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img9"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img2"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_2" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img4"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_4" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img6"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_6" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img8"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_8" />
+
+            <com.matao.view.XImageView
+                android:id="@+id/x_0_3_img10"
+                style="@style/xx_img"
+                android:src="@drawable/lsy_pic_10" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.matao.view.TopBar
+        android:id="@+id/x_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="49dp"
+        ap:rightImg="@drawable/nav_ico_arrowr"
+        ap:titleText="0-3个月  十步曲" >
+
+        <ImageView
+            android:id="@+id/x_close"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/nav_ico_close64" />
+    </com.matao.view.TopBar>
+
+</RelativeLayout>

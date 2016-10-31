@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280"
+    android:orientation="vertical" >
+
+    <com.matao.view.TopBar
+        android:id="@+id/wdxx_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="49dp"
+        ap:rightW="49dp"
+        ap:titleText="我的消息" >
+    </com.matao.view.TopBar>
+
+    <RelativeLayout
+        android:id="@+id/wdxw_message_click"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/set" >
+
+        <ImageView
+            android:id="@+id/wdxx_ico1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/wdxw_ico_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/wdxx_ico1"
+            android:text="我的消息"
+            android:textColor="#444444"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_arrow4" />
+
+        <RelativeLayout
+            android:id="@+id/wdxx_hf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/set"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/wdzl_ico"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/wdxx_ico_hf" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/wdzl_ico"
+                android:text="回复"
+                android:textColor="#444444"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/prompt_hf"
+                android:layout_width="23.5dp"
+                android:layout_height="17dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:background="@drawable/wdxx_pic_prompt"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_arrow4" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <RelativeLayout
+        android:id="@+id/wdxx_xh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/set"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/gwfx_ico"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/wdxx_ico_xh" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/gwfx_ico"
+            android:text="喜欢"
+            android:textColor="#444444"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/prompt_xh"
+            android:layout_width="23.5dp"
+            android:layout_height="17dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:background="@drawable/wdxx_pic_prompt"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_arrow4" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <RelativeLayout
+        android:id="@+id/wdxx_xttz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/set"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/wdsj_ico"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/wdxx_ico_xttz" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/wdsj_ico"
+            android:gravity="center_vertical"
+            android:text="系统通知"
+            android:textColor="#444444"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/prompt_xttz"
+            android:layout_width="23.5dp"
+            android:layout_height="17dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/textView3"
+            android:background="@drawable/wdxx_pic_prompt"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_arrow4" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        layout="@layout/animolayout" />
+
+    <TextView
+        android:id="@+id/favorable_tip"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/none_tips_ico"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/favorable_bg"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pic_31"
+        android:onClick="onClick"
+        android:visibility="gone" />
+
+    <com.matao.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/reply_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55.5dp"
+        android:layout_marginTop="49dp"
+        android:divider="@color/color_all_line"
+        android:dividerHeight="0.5dp" >
+    </com.matao.pulltorefresh.library.PullToRefreshListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5"
+            android:gravity="top"
+            android:padding="12dp" >
+
+            <Button
+                android:id="@+id/reply_replyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:text="回复"
+                android:textColor="#ff57b2"
+                android:textSize="18sp" />
+
+            <com.matao.view.RoundAngleImageView
+                android:id="@+id/reply_pic"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClick"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ico_8"
+                ap:roundHeight="3dp"
+                ap:roundWidth="3dp" />
+
+            <ImageView
+                android:id="@+id/reply_inputIco"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/reply_pic"
+                android:onClick="onClick"
+                android:src="@drawable/ico_9" />
+
+            <EditText
+                android:id="@+id/reply_inputEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/reply_replyButton"
+                android:layout_toRightOf="@id/reply_inputIco"
+                android:background="@drawable/shape_input"
+                android:maxLines="3"
+                android:minHeight="33dp"
+                android:onClick="onClick"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#444444"
+                android:textSize="16sp"  >
+
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/reply_layout_biaoqing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input"
+            android:background="#fafafa"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/reply_layout_biaoqing_ViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:padding="20dp" />
+
+            <LinearLayout
+                android:id="@+id/reply_layout_biaoqing_dot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_all_line" />
+    </RelativeLayout>
+
+    <com.matao.view.TopBar
+        android:id="@+id/reply_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftH="49dp"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:leftW="49dp"
+        ap:titleText="评论详情" />
+
+</RelativeLayout>

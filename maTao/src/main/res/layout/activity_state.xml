@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280"
+    android:orientation="vertical" >
+
+    <com.matao.view.TopBar
+        android:id="@+id/perfect_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        android:paddingLeft="4dp"
+        ap:leftH="49dp"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:leftW="49dp"
+        ap:titleText="完善资料" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/babystate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:src="@drawable/input_ico_status" />
+
+                <TextView
+                    android:id="@+id/perfect_Zhuangtai"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="当前状态"
+                    android:textColor="#999999"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/zt_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perfect_yuchanqi_layout"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:src="@drawable/input_ico_date" />
+
+                <TextView
+                    android:id="@+id/perfect_select_yuchanqi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_yuchanqi"
+                    android:textColor="#999999"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perfect_haveBaby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/babyname_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/input_bg_top"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:src="@drawable/input_ico_bottle" />
+
+                    <EditText
+                        android:id="@+id/perfect_babyNickName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="@string/babyNickName"
+                        android:textColorHint="#999999" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/birthday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/input_bg_middle"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:src="@drawable/input_ico_date" />
+
+                    <TextView
+                        android:id="@+id/perfect_birthDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/birthDay"
+                        android:textColor="#999999"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/birth_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ico_arrow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/babysex_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/input_bg_middle"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:src="@drawable/input_ico_male" />
+
+                    <TextView
+                        android:id="@+id/perfect_babySex"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/babySex"
+                        android:textColor="#999999"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/sex_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ico_arrow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/input_bg_bottom"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:src="@drawable/input_ico_hospital" />
+
+                    <EditText
+                        android:id="@+id/perfect_babyHospital"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="输入宝宝出生医院"
+                        android:textColorHint="#999999" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/perfect_completRgst"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/btn_4"
+                android:text="@string/perfectRgst"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

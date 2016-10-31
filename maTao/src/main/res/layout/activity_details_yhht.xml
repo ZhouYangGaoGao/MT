@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEEED" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        layout="@layout/animolayout" />
+
+    <LinearLayout
+        android:id="@+id/details_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="49dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/details_like_clic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.8"
+            android:background="#37393B"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/details_like_ico"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ico_recommend_2" />
+
+            <TextView
+                android:id="@+id/details_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0%"
+                android:textColor="#999999"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/details_gouwuche"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic_30" />
+
+        <LinearLayout
+            android:id="@+id/details_replay_clic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.8"
+            android:background="#37393B"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/details_replay_ico"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ico_reply_2" />
+
+            <TextView
+                android:id="@+id/details_replay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0"
+                android:textColor="#999999"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.matao.view.TopBar
+        android:id="@+id/details_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="49dp"
+        ap:rightImg="@drawable/nav_ico_more"
+        ap:rightW="49dp"
+        ap:titleText="详情" />
+
+    <RelativeLayout
+        android:id="@+id/details_jianbujian"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:layout_above="@id/details_layout"
+        android:layout_marginLeft="15dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/details_bujian"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/pic_28"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="不荐"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/details_jian"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/details_bujian"
+            android:background="@drawable/pic_29"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="荐"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/details_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/details_like_clic2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#37393B"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/details_like2_ico"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ico_love_2" />
+
+            <TextView
+                android:id="@+id/details_like2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0"
+                android:textColor="#999999"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/details_replay_clic2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.8dp"
+            android:layout_weight="1"
+            android:background="#37393B"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ico_reply_2" />
+
+            <TextView
+                android:id="@+id/details_replay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0"
+                android:textColor="#999999"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.matao.satellitemenu.SatelliteMenu
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|left"
+            android:visibility="gone"
+            ap:closeOnClick="true"
+            ap:expandDuration="400"
+            ap:satelliteDistance="100dp"
+            ap:totalSpacingDegree="120" />
+    </FrameLayout>
+
+</RelativeLayout>

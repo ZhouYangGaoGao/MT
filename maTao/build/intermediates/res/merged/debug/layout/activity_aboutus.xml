@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:orientation="vertical" >
+   <com.matao.view.TopBar
+        android:id="@+id/aboutus_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:rightH="49dp"
+        ap:rightW="49dp"
+         ap:leftImg="@drawable/nav_ico_arrow"
+         ap:titleText="关于我们" >
+   </com.matao.view.TopBar>
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:scrollbars="none" 
+       >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical" >
+
+      <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right">
+      <ImageView 
+             android:layout_width="match_parent"
+             android:layout_height="180dp"
+             android:src="@drawable/pic_34"
+             android:paddingTop="37dp"
+           />
+        <TextView  
+             android:id="@+id/aboutus_appversion"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="18dp"
+             android:layout_marginTop="150dp"
+             android:gravity="center"/> 
+           </RelativeLayout>
+             <TextView               
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                 android:text="@string/about"
+                 android:textColor="#666666"
+                 android:lineSpacingExtra="6dp"
+                 android:layout_marginBottom="110dp"
+                 android:textSize="15sp">
+             </TextView>
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0.5dp"
+                 android:background="#dfdfdfdf"/>
+  
+             <RelativeLayout
+                 android:id="@+id/auboutus_wibo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/aboutus"
+                 android:layout_gravity="center_vertical" >
+                 <ImageView
+                     android:id="@+id/aboutus_fitsimg"
+                     android:layout_width="34dp"
+                     android:layout_height="34dp"
+                     android:layout_marginLeft="13dp"
+                     android:layout_marginRight="13dp"
+                     android:layout_centerVertical="true"
+                     android:src="@drawable/ico_share_cp" />
+	                     <TextView
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:text="妈淘触屏板"
+	                         android:layout_toRightOf="@+id/aboutus_fitsimg"
+	                         android:textColor="#444444"
+	                         android:layout_centerInParent="true"
+	                         android:textSize="15sp" />
+	                     <TextView
+	                         android:layout_width="wrap_content"
+	                         android:layout_toLeftOf="@+id/aboutus_fitsimg_1"
+	                         android:layout_height="wrap_content"
+	                         android:layout_centerInParent="true"
+	                         android:text="m.matao.com"
+	                         android:textColor="#ff74bf"
+	                         android:textSize="15sp" />
+	                        <ImageView
+	                 android:id="@+id/aboutus_fitsimg_1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="48dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_centerHorizontal="true"
+                     android:src="@drawable/icon_arrow4" />
+                 </RelativeLayout>
+	      
+                    <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0.5dp"
+                 android:background="#dfdfdfdf"/>
+          <RelativeLayout
+                 android:id="@+id/auboutus_wx"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="@color/aboutus"
+                 android:layout_gravity="center_vertical" >
+                 <ImageView
+                     android:id="@+id/aboutus_fitsimg2"
+                     android:layout_width="34dp"
+                     android:layout_height="34dp"
+               
+                     android:layout_marginLeft="13dp"
+                     android:layout_marginRight="13dp"
+                     android:layout_centerVertical="true"
+                     android:src="@drawable/ico_share_10" />
+	                     <TextView
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:text="官方微信"
+	                         android:layout_toRightOf="@+id/aboutus_fitsimg2"
+	                         android:textColor="#444444"
+	                         android:layout_centerInParent="true"
+	                         android:textSize="15sp" />
+	                     <TextView
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:layout_toLeftOf="@+id/aboutus_fitsimg_2"
+	                         android:layout_centerInParent="true"
+	                         android:text="妈淘网(mataoclub)"
+	                         android:textColor="#ff74bf"
+	                         android:textSize="15sp" />
+	                <ImageView
+	                 android:id="@+id/aboutus_fitsimg_2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="48dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_centerHorizontal="true"
+                     android:src="@drawable/icon_arrow4" />
+             </RelativeLayout>
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0.5dp"
+                 android:background="#dfdfdfdf"/>
+                  <RelativeLayout
+                 android:id="@+id/auboutus_qq"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/aboutus"
+                 android:layout_gravity="center_vertical" >
+                 <ImageView
+                     android:id="@+id/aboutus_fitsimg3"
+                     android:layout_width="34dp"
+                     android:layout_height="34dp"
+               
+                     android:layout_marginLeft="13dp"
+                     android:layout_marginRight="13dp"
+                     android:layout_centerVertical="true"
+                     android:src="@drawable/ico_share_11" />
+	                     <TextView
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:layout_toRightOf="@+id/aboutus_fitsimg3"
+	                         android:textColor="#444444"
+	                         android:layout_centerInParent="true"
+	                         android:text="官方QQ群"
+	                         android:textSize="15sp" />
+	                     <TextView
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                        android:layout_toLeftOf="@+id/aboutus_fitsimg_3"
+	                         android:layout_centerInParent="true"
+	                         android:text="192647149"
+	                         android:textColor="#ff74bf"
+	                         android:textSize="15sp" />
+	                <ImageView
+	                 android:id="@+id/aboutus_fitsimg_3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="48dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_centerHorizontal="true"
+                     android:src="@drawable/icon_arrow4" />
+             </RelativeLayout>
+               <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0.5dp"
+                 android:background="#dfdfdfdf"/>
+       </LinearLayout>
+  </ScrollView>
+</RelativeLayout>
+

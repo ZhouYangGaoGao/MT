@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_write"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:id="@+id/home_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/home_msgnum"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/tag"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#ff74bf"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/home_bottom"
+        layout="@layout/foot_actionbar" />
+
+</LinearLayout>

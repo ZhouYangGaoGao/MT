@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">妈淘</string>
+    <string name="login">登录</string>
+    <string name="youhui">/youhui-</string>
+    <string name="detail">/detail-</string>
+    <string name="input_tell">请输入邮箱/手机号</string>
+    <string name="input_passw">请输入密码</string>
+    <string name="input_number">请输入您的手机号</string>
+    <string name="input_verify">发送验证码</string>
+    <string name="input_code">请输入验证码</string>
+    <string name="forgetpass">忘记密码</string>
+    <string name="quikRegs">快速注册 >></string>
+    <string name="otherLogin">第三方账号登录</string>
+    <string name="stroll">逛一逛</string>
+    <string name="wx">微信</string>
+    <string name="qq">QQ</string>
+    <string name="xl">新浪微博</string>
+    <string name="select_the_area">选择地区</string>
+    <string name="favorable">优惠</string>
+    <string name="screen">筛选</string>
+    <string name="new_favorable">全部</string>
+    <string name="brand_authorzing">品牌折扣</string>
+    <string name="super_offer">超级低价</string>
+    <string name="hot_recommend">热点推荐</string>
+    <string name="new1">最新</string>
+    <string name="recommend">推荐</string>
+    <string name="like">喜欢</string>
+    <string name="seas">海淘</string>
+    <string name="xuanze_fenlei">选择分类</string>
+    <string name="xuanze_nianling">选择年龄段</string>
+    <string name="no">取消</string>
+    <string name="yes">确定</string>
+    <string name="input_psd">请输入密码</string>
+    <string name="input_psd_agin">再次输入密码</string>
+    <string name="babyNickName">输入宝宝名字</string>
+    <string name="birthDay">选择宝宝生日</string>
+    <string name="babySex">选择宝宝性别</string>
+    <string name="select_yuchanqi">选择预产期</string>
+    <string name="perfectRgst">完成注册</string>
+    <string name="readrgst">我已阅读并接受妈淘网用户协议</string>
+    <string name="zhunbei">准备怀孕</string>
+    <string name="huaiyun">已经怀孕</string>
+    <string name="havebaby">已有宝宝</string>
+    <string name="nanBaby">男宝宝</string>
+    <string name="nvBaby">女宝宝</string>
+    <string name="experience">经验</string>
+    <string name="show">晒单</string>
+    <string name="collect">收集</string>
+    <string name="share">分享</string>
+    <string name="report">举报</string>
+    <string name="QZone">QQ空间</string>
+    <string name="wxcircle">朋友圈</string>
+    <string name="copy">复制链接</string>
+    <string name="about">妈淘网(matao.com)——帮助亿万宝妈选购母婴用品。这里汇集了众多母婴专家、达人和父母分享的最真实、专业、客观的母婴用品清单和采买经验。帮助更多年轻父母解决买什么、怎么买、如何买的更放心便宜。</string>
+
+</resources>

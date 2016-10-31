@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/warning_dialog" 
+        android:layout_marginBottom="120dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下次再说"
+                android:textColor="#ea5d57"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/btn_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="完善资料"
+                android:textColor="#ea5d57"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

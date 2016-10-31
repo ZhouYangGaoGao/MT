@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.matao.view.TopBar
+        android:id="@+id/bigimag_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#000000"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="54dp"
+        ap:rightImg="@drawable/nav_ico_delete"
+        ap:rightW="54dp"
+        ap:titleText="1/1" />
+
+    <ImageView
+        android:id="@+id/bigimag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

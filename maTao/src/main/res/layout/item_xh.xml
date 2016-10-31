@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    xmlns:r="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/xh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" >
+
+        <com.matao.view.RoundAngleImageView
+            android:id="@+id/xh_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic_14"
+            r:roundHeight="20dp"
+            r:roundWidth="20dp" />
+
+        <TextView
+            android:id="@+id/xh_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/xh_icon"
+            android:text="喜欢了你的经验"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <com.matao.view.RoundAngleImageView
+            android:id="@+id/xh_img"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:focusable="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_14"
+            r:roundHeight="3dp"
+            r:roundWidth="3dp" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignRight="@+id/xh_icon"
+            android:layout_alignTop="@+id/xh_icon"
+            android:src="@drawable/xh_ico_love" />
+    </RelativeLayout>
+
+</LinearLayout>

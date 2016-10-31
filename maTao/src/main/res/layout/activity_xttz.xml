@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_720x1280"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        layout="@layout/animolayout" />
+
+    <TextView
+        android:id="@+id/favorable_tip"
+        android:layout_width="166dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/none_tips_ico"
+        android:visibility="gone" />
+
+    <com.matao.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/xttz_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52dp"
+        android:divider="#EBEDEC"
+        android:dividerHeight="12dp" >
+    </com.matao.pulltorefresh.library.PullToRefreshListView>
+
+    <com.matao.view.TopBar
+        android:id="@+id/xttz_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/nav_bg"
+        ap:leftImg="@drawable/nav_ico_arrow"
+        ap:rightH="49dp"
+        ap:rightW="49dp"
+        ap:titleText="系统通知" >
+    </com.matao.view.TopBar>
+
+</RelativeLayout>

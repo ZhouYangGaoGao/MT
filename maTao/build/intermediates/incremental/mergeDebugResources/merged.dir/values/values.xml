@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aboutus_item_click">#dfdfdf</color>
+    <color name="aboutus_item_show">#fffefa</color>
+    <color name="black_button_nor">#010101</color>
+    <color name="black_button_par">#2e2e2e</color>
+    <color name="black_word">#444444</color>
+    <color name="button_word_nor">#010101</color>
+    <color name="button_word_par">#4e4d4d</color>
+    <color name="color_all_line">#dfdfdf</color>
+    <color name="color_black">#010101</color>
+    <color name="color_line">#c0c0c0</color>
+    <color name="color_line_green">#3bb469</color>
+    <color name="color_line_title">#cecece</color>
+    <color name="color_write">#ffffff</color>
+    <color name="common_word">#777777</color>
+    <color name="graw_button_nor">#ffffff</color>
+    <color name="graw_button_par">#e9e9e9</color>
+    <color name="gray_word">#676767</color>
+    <color name="item_msg">#fffee6</color>
+    <color name="line">#ECEEED</color>
+    <color name="pink_word">#ff74bf</color>
+    <color name="set_item_click">#dfdfdf</color>
+    <color name="set_item_show">#ffffff</color>
+    <color name="special_word">#5bba89</color>
+    <color name="state_word">#949494</color>
+    <color name="tc">#ff74bf</color>
+    <color name="test_word">#57bb88</color>
+    <color name="title_word">#010101</color>
+    <color name="transparency">#00000000</color>
+    <color name="transparency_half">#80000000</color>
+    <color name="tuc">#ffffff</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <color name="unchose_word">#aaaaaa</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CustomTheme"><attr format="reference" name="gifViewStyle"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="FlowLayout_Layout"><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="GifView"><attr format="reference" name="gif"/><attr format="boolean" name="paused"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/></declare-styleable>
+    <declare-styleable name="RoundAngleImageView"><attr format="dimension" name="roundWidth"/><attr format="dimension" name="roundHeight"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="riv_corner_radius"/><attr format="dimension" name="riv_border_width"/><attr format="color" name="riv_border_color"/><attr format="boolean" name="riv_mutate_background"/><attr format="boolean" name="riv_oval"/><attr name="android:scaleType"/><attr name="riv_tile_mode">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr><attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr><attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="SatelliteMenu"><attr format="integer" name="expandDuration"/><attr format="boolean" name="closeOnClick"/><attr format="float" name="totalSpacingDegree"/><attr format="dimension" name="satelliteDistance"/><attr format="reference" name="mainImage"/></declare-styleable>
+    <declare-styleable name="Topbar"><attr format="reference|string" name="titleText"/><attr format="reference|color" name="titleImg"/><attr format="color" name="titleColor"/><attr format="dimension" name="titleSize"/><attr format="reference|color" name="leftImg"/><attr format="dimension" name="leftW"/><attr format="dimension" name="leftH"/><attr format="boolean" name="leftVisiable"/><attr format="boolean" name="rightVisiable"/><attr format="reference|color" name="rightImg"/><attr format="dimension" name="rightW"/><attr format="dimension" name="rightH"/></declare-styleable>
+    <dimen name="alphabet_size">12dip</dimen>
+    <dimen name="header_footer_left_right_padding">54dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="stgv_margin">6dp</dimen>
+    <dimen name="tabtext_size">13dp</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="stgv" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="QZone">QQ空间</string>
+    <string name="about">妈淘网(matao.com)——帮助亿万宝妈选购母婴用品。这里汇集了众多母婴专家、达人和父母分享的最真实、专业、客观的母婴用品清单和采买经验。帮助更多年轻父母解决买什么、怎么买、如何买的更放心便宜。</string>
+    <string name="app_name">妈淘</string>
+    <string name="babyNickName">输入宝宝名字</string>
+    <string name="babySex">选择宝宝性别</string>
+    <string name="birthDay">选择宝宝生日</string>
+    <string name="brand_authorzing">品牌折扣</string>
+    <string name="collect">收集</string>
+    <string name="copy">复制链接</string>
+    <string name="define_roundedimageview"/>
+    <string name="detail">/detail-</string>
+    <string name="empty"/>
+    <string name="experience">经验</string>
+    <string name="favorable">优惠</string>
+    <string name="forgetpass">忘记密码</string>
+    <string name="havebaby">已有宝宝</string>
+    <string name="hot_recommend">热点推荐</string>
+    <string name="huaiyun">已经怀孕</string>
+    <string name="input_code">请输入验证码</string>
+    <string name="input_number">请输入您的手机号</string>
+    <string name="input_passw">请输入密码</string>
+    <string name="input_psd">请输入密码</string>
+    <string name="input_psd_agin">再次输入密码</string>
+    <string name="input_tell">请输入邮箱/手机号</string>
+    <string name="input_verify">发送验证码</string>
+    <string name="library_roundedimageview_author">Vince Mi</string>
+    <string name="library_roundedimageview_authorWebsite">https://github.com/vinc3m1</string>
+    <string name="library_roundedimageview_isOpenSource">true</string>
+    <string name="library_roundedimageview_libraryDescription">A fast ImageView (and Drawable) that supports rounded corners (and ovals or circles) based on the original example from Romain Guy.</string>
+    <string name="library_roundedimageview_libraryName">RoundedImageView</string>
+    <string name="library_roundedimageview_libraryVersion">1.3.0</string>
+    <string name="library_roundedimageview_libraryWebsite">https://github.com/vinc3m1/RoundedImageView</string>
+    <string name="library_roundedimageview_licenseId">apache_2_0</string>
+    <string name="library_roundedimageview_repositoryLink">https://github.com/vinc3m1/RoundedImageView.git</string>
+    <string name="like">喜欢</string>
+    <string name="login">登录</string>
+    <string name="nanBaby">男宝宝</string>
+    <string name="new1">最新</string>
+    <string name="new_favorable">全部</string>
+    <string name="no">取消</string>
+    <string name="nvBaby">女宝宝</string>
+    <string name="otherLogin">第三方账号登录</string>
+    <string name="perfectRgst">完成注册</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在加载</string>
+    <string name="pull_to_refresh_from_bottom_release_label">释放立即加载</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新</string>
+    <string name="pull_to_refresh_release_label">释放立即刷新</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <string name="qq">QQ</string>
+    <string name="quikRegs">快速注册 >></string>
+    <string name="readrgst">我已阅读并接受妈淘网用户协议</string>
+    <string name="recommend">推荐</string>
+    <string name="report">举报</string>
+    <string name="screen">筛选</string>
+    <string name="seas">海淘</string>
+    <string name="select_the_area">选择地区</string>
+    <string name="select_yuchanqi">选择预产期</string>
+    <string name="share">分享</string>
+    <string name="show">晒单</string>
+    <string name="stroll">逛一逛</string>
+    <string name="super_offer">超级低价</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+    <string name="wx">微信</string>
+    <string name="wxcircle">朋友圈</string>
+    <string name="xl">新浪微博</string>
+    <string name="xuanze_fenlei">选择分类</string>
+    <string name="xuanze_nianling">选择年龄段</string>
+    <string name="yes">确定</string>
+    <string name="youhui">/youhui-</string>
+    <string name="zhunbei">准备怀孕</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DialogLoginTip">
+        <item name="android:windowBackground">@drawable/shape_login_tip</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MmsDialogTheme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"/>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="activityTheme" parent="@android:style/Theme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="bottom_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="matao_img_110">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/al_out</item>
+    </style>
+    <style name="popwin_anim_style2">
+        <item name="android:windowEnterAnimation">@anim/pop_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+    <style name="tab_img">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="tab_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tabtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_im">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="umeng_socialize_action_bar_itemlayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="umeng_socialize_dialog_anim_fade">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_fade_out</item>
+    </style>
+    <style name="umeng_socialize_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_slide_out_from_bottom</item>
+    </style>
+    <style name="umeng_socialize_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/umeng_socialize_divider</item>
+    </style>
+    <style name="umeng_socialize_edit_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="umeng_socialize_list_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog_anim" parent="@style/umeng_socialize_popup_dialog">
+        <item name="android:windowAnimationStyle">@style/umeng_socialize_dialog_animations</item>
+    </style>
+    <style name="umeng_socialize_shareboard_animation">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+    <style name="widget_bottom_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/foot_lett</item>
+    </style>
+    <style name="x_img">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+    <style name="xx_img">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+</resources>

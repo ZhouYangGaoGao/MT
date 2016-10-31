@@ -1,0 +1,538 @@
+[
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/fragment_experience_and_show.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/fragment_experience_and_show.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_exchange.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_exchange.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/foot_actionbar.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/foot_actionbar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/myhouse.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/myhouse.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_0_3month.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_0_3month.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/my_zoom_view.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/my_zoom_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_full_curtain.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_myhouse.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_myhouse.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_experience.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_experience.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/fragment_favorable_and_seas.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/fragment_favorable_and_seas.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_details_choose.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_details_choose.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_bigimag.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_bigimag.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/reply_img_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/reply_img_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_setpasd.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_setpasd.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/seas_grid_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/seas_grid_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_yuchanqi.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_yuchanqi.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_perfect_date.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_perfect_date.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_composer_header.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_forgotpw.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_forgotpw.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_post_share.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_xttz.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_xttz.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/show_shaixuan_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/show_shaixuan_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/welcome_pager.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/welcome_pager.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_hqtb.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_hqtb.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/gridview_img_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/gridview_img_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_at_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/experience_header.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/experience_header.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_detial_share.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_detial_share.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_gyg_yq.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_gyg_yq.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/search_tip.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/search_tip.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog_button.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/seas_screen.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/seas_screen.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/toast_net_tip.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/toast_net_tip.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_login_tip.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_login_tip.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_state.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_state.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/toast_jifen_tip.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/toast_jifen_tip.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_updatepw.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_updatepw.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/ta_include.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/ta_include.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/my_content_view.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/my_content_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_shouhuo.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_shouhuo.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_ziliao.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_ziliao.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_favorable_and_seas_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_favorable_and_seas_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_preview.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_preview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/complete_choise_img.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/complete_choise_img.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_zhuan_ti.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_zhuan_ti.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_show.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_show.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_bind_select_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_details_yhht.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_details_yhht.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_time_birday.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_time_birday.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_set.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_set.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_experience_and_show_header.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_experience_and_show_header.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_gyg_zt.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_gyg_zt.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_at_overlay.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_tahouse.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_tahouse.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_1_3year.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_1_3year.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_aboutus.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_aboutus.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_gyg_yybb.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_gyg_yybb.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_update.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_update.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_resetpw.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_resetpw.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_amend_name.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_amend_name.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_6_12month.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_6_12month.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/sat_main.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/sat_main.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_reply.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_reply.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/my_head_view.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/my_head_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/sat_item_cr.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/sat_item_cr.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_webview.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_webview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_tag.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_tag.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_xttz.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_xttz.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/animolayout.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/animolayout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/clear_jilu.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/clear_jilu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_reply.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_reply.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_bak_platform_selector_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/ta_head_view.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/ta_head_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_bak_at_list.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_titile_bar.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_choose_sex.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_choose_sex.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_feedback.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_my_like.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_my_like.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_simple_spinner_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_set_share.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_set_share.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/xhlist_header.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/xhlist_header.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/wel_1.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/wel_1.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_failed_load_page.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/ta_include2.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/ta_include2.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_3_6month.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_3_6month.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/fragment_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/fragment_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_zhuan_ti.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_zhuan_ti.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_at_view.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_at_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_select_the_area.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_select_the_area.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_perfect_sex.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_perfect_sex.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/bq_img.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/bq_img.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_registrreaty.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_registrreaty.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/progressdialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/progressdialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_bak_platform_item_simple.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_perfect_zhuangtai.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_perfect_zhuangtai.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_bak_at_list_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_jilu.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_jilu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_band.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_band.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/wel_01.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/wel_01.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_perfect.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_perfect.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_3_6year.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_3_6year.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_web_share.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_web_share.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_hf.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_hf.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_hf.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_hf.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/fragmengt_home_top.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/fragmengt_home_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_oauth_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_0_0_.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_0_0_.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_chose_img.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_chose_img.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_select_the_area.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_select_the_area.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_hqtb.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_hqtb.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/biaoqing_gridview.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/biaoqing_gridview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/toast.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/toast.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_exchange.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_exchange.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/dialog_reply_longclick.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/dialog_reply_longclick.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/fragment_pager_listview.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/fragment_pager_listview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/umeng_socialize_shareboard_item.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/softupdate_progress.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/softupdate_progress.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_tag_top.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_tag_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_xh.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_xh.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/item_xh.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/item_xh.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/MT/maTao/build/intermediates/res/merged/debug/layout/activity_msg.xml",
+        "source": "/Users/zhengzai/zhouyang/MT/maTao/src/main/res/layout/activity_msg.xml"
+    }
+]

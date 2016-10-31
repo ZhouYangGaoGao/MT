@@ -1,0 +1,411 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:2:1-255:12
+	package
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:20.0.0] /Users/zhengzai/zhouyang/MT/maTao/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:16:22-81
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:20:22-65
+application
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:22:5-253:19
+MERGED from [com.android.support:support-v4:20.0.0] /Users/zhengzai/zhouyang/MT/maTao/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:27:9-41
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:25:9-33
+	android:allowBackup
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:24:9-35
+	android:icon
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:26:9-45
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:23:9-53
+activity#com.matao.matao.wxapi.WXEntryActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:31:9-36:75
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:35:13-49
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:34:13-36
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:36:13-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:32:13-50
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:40:9-47:20
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:43:13-44
+	android:noHistory
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:44:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:46:13-68
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:42:13-57
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:45:13-50
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:41:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:50:9-61:20
+	android:noHistory
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:51:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:53:13-60:29
+action#android.intent.action.VIEW
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:56:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:57:27-75
+data
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:59:17-53
+	android:scheme
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:59:23-50
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:62:9-66:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:64:13-49
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:65:13-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:63:13-69
+meta-data#UMENG_APPKEY
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:69:9-72:21
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:71:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:70:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:74:9-76:38
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:76:13-35
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:75:13-41
+activity#com.matao.matao.MainActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:78:9-81:20
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:80:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:79:13-56
+activity#com.matao.activity.MyLikeActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:82:9-85:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:83:13-61
+activity#com.matao.activity.MyMsgActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:86:9-89:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:87:13-60
+activity#com.matao.activity.TaHouseActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:90:9-93:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:91:13-62
+activity#com.matao.activity.ExchangeActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:94:9-97:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:95:13-63
+activity#com.matao.activity.XttzActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:98:9-101:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:99:13-59
+activity#com.matao.activity.LoginActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:102:9-105:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:103:13-60
+activity#com.matao.activity.GetTBActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:106:9-109:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:107:13-60
+activity#com.matao.activity.UserAddressActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:110:9-113:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:111:13-66
+activity#com.matao.activity.HfActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:114:9-117:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:115:13-57
+activity#com.matao.activity.XhActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:118:9-121:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:119:13-57
+activity#com.matao.activity.HomeActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:122:9-126:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:125:13-49
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:123:13-59
+activity#com.matao.activity.SplashActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:127:9-130:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:128:13-61
+activity#com.matao.activity.WelcomeActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:131:9-139:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:132:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:134:13-138:29
+action#android.intent.action.MAIN
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:135:17-69
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:135:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:137:17-77
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:137:27-74
+activity#com.matao.activity.ZiLiaoActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:140:9-143:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:141:13-61
+activity#com.matao.activity.AmendNameActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:144:9-147:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:145:13-64
+activity#com.matao.activity.SelectAreaActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:148:9-151:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:149:13-65
+activity#com.matao.activity.BigPicActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:152:9-155:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:153:13-61
+activity#com.matao.activity.PreviewActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:156:9-159:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:158:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:157:13-62
+activity#com.matao.activity.RegistRreatyActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:160:9-163:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:162:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:161:13-67
+activity#com.matao.activity.RegisterActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:164:9-167:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:165:13-63
+activity#com.matao.activity.FavorableDSCActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:168:9-171:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:169:13-67
+activity#com.matao.activity.GygActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:172:9-175:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:174:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:173:13-58
+activity#com.matao.activity.YqActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:176:9-179:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:178:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:177:13-57
+activity#com.matao.activity.YybbActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:180:9-183:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:181:13-59
+activity#com.matao.activity.BandActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:184:9-187:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:185:13-59
+activity#com.matao.activity.SetPsdActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:188:9-191:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:189:13-61
+activity#com.matao.activity.MyHouseActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:192:9-195:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:194:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:193:13-62
+activity#com.matao.activity.TagActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:196:9-199:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:198:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:197:13-58
+activity#com.matao.activity.WebViewActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:200:9-203:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:202:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:201:13-62
+activity#com.matao.activity.PerfectActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:204:9-207:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:206:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:205:13-62
+activity#com.matao.activity.SetActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:208:9-211:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:209:13-58
+activity#com.matao.activity.FeedBackActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:212:9-215:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:214:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:213:13-63
+activity#com.matao.activity.DetailsActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:216:9-219:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:218:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:217:13-62
+activity#com.matao.activity.ResetPwActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:220:9-223:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:222:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:221:13-62
+activity#com.matao.activity.ForgotPwActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:224:9-227:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:225:13-63
+activity#com.matao.activity.AboutUsActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:228:9-231:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:230:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:229:13-62
+activity#com.matao.activity.UpdatePwActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:232:9-235:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:234:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:233:13-63
+activity#com.matao.activity.SearchActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:236:9-239:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:238:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:237:13-61
+activity#com.matao.activity.StateActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:240:9-243:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:242:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:241:13-60
+activity#com.matao.activity.XActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:244:9-247:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:246:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:245:13-56
+activity#com.matao.activity.ReplyActivity
+ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:248:9-252:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:250:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:251:13-67
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/MT/maTao/src/main/AndroidManifest.xml:249:13-60

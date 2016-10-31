@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:r="http://schemas.android.com/apk/res/com.matao.matao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/item_favorable_clik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/set"
+        android:paddingBottom="12dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp" >
+
+        <com.matao.view.RoundAngleImageView
+            android:id="@+id/favorable_item_icon"
+            style="@style/matao_img_110"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/matao_220"
+            android:scaleType="centerCrop"
+            r:roundHeight="3dp"
+            r:roundWidth="3dp" />
+
+        <TextView
+            android:id="@+id/favorable_item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/favorable_item_icon"
+            android:text="[海淘]"
+            android:textColor="#999999"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/favorable_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/favorable_item_icon"
+            android:lines="2"
+            android:textColor="#444444"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/favorable_item_dsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/favorable_item_title"
+            android:layout_below="@+id/favorable_item_title"
+            android:layout_marginBottom="12dp"
+            android:singleLine="true"
+            android:textColor="#fe6ab4"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/favorable_item_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/favorable_item_dsc"
+            android:layout_toRightOf="@id/favorable_item_icon"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/favorable_item_outDate"
+            android:layout_width="49dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/favorable_item_icon"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ico_expired"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#fafafa"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ico_time" />
+
+            <TextView
+                android:id="@+id/favorable_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="6分钟前"
+                android:textColor="#999999"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="32dp"
+            android:layout_weight="0.001"
+            android:background="@color/color_all_line" />
+
+        <LinearLayout
+            android:id="@+id/favorable_item_good_click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/favorable_item_good_ico"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ico_recommend" />
+
+            <TextView
+                android:id="@+id/favorable_item_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="21%"
+                android:textColor="#999999"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="32dp"
+            android:layout_weight="0.001"
+            android:background="@color/color_all_line" />
+
+        <LinearLayout
+            android:id="@+id/favorable_item_replys_click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ico_reply" />
+
+            <TextView
+                android:id="@+id/favorable_item_replys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="282"
+                android:textColor="#999999"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_all_line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#ECEEED" />
+
+</LinearLayout>
